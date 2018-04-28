@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Loewenstark_Utf8mb4>
+            <version>1.0.0.0</version>
+        </Loewenstark_Utf8mb4>
+    </modules>
+    <global>
+        <models>
+            <lutf8mb4>
+                <class>Loewenstark_Utf8mb4_Model</class>
+                <resourceModel>lutf8mb4_resource</resourceModel>
+            </lutf8mb4>
+            <lutf8mb4_resource>
+                <class>Loewenstark_Utf8mb4_Model_Resource</class>
+            </lutf8mb4_resource>
+        </models>
+        <resources>
+            <lutf8mb4_setup>
+                <setup>
+                    <module>Loewenstark_Utf8mb4</module>
+                    <class>Loewenstark_Utf8mb4_Model_Resource_Setup</class>
+                </setup>
+            </lutf8mb4_setup>
+        </resources>
+        <helpers>
+            <lutf8mb4>
+                <class>Loewenstark_Utf8mb4_Helper</class>
+            </lutf8mb4>
+        </helpers>
+    </global>
+</config>
